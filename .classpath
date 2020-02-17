@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/activation.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/barchart-udt-core-2.2.6.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/javafx-maven-plugin-8.8.3.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/jgraph-5.13.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/jgrapht-jdk1.5-0.7.3.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/mail.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="I:/Project/Efficient Traceable Authorization Search/Jars/lib/ojdbc14.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

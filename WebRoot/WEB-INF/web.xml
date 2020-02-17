@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<servlet>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <servlet-class>com.etass.dbutility.InstantiationServlet</servlet-class> 
+       
+    <init-param>
+       <param-name>config</param-name>
+       <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>    
+    <load-on-startup>0</load-on-startup>    
+  </servlet>     
+  
+  
+  
+  
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.etass.action.RegistrationServlet</servlet-class>    
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>KgcLoginServlet</servlet-name>
+    <servlet-class>com.etass.action.KgcLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloudLoginServlet</servlet-name>
+    <servlet-class>com.etass.action.CloudLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DataOwnerLoginServlet</servlet-name>
+    <servlet-class>com.etass.action.DataOwnerLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DataUserLoginServlet</servlet-name>
+    <servlet-class>com.etass.action.DataUserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestUserServlet</servlet-name>
+    <servlet-class>com.etass.action.RequestUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestOwnerServlet</servlet-name>
+    <servlet-class>com.etass.action.RequestOwnerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewDataownerservlet</servlet-name>
+    <servlet-class>com.etass.action.ViewDataownerservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewDatauserservlet</servlet-name>
+    <servlet-class>com.etass.action.ViewDatauserservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnerRequestAcceptServlet</servlet-name>
+    <servlet-class>com.etass.action.OwnerRequestAcceptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRequestAcceptServlet</servlet-name>
+    <servlet-class>com.etass.action.UserRequestAcceptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.etass.action.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloudRequestfileServlet</servlet-name>
+    <servlet-class>com.etass.action.CloudRequestfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cloudfileacceptservlet</servlet-name>
+    <servlet-class>com.etass.action.Cloudfileacceptservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewOwneruploadedfileservlet</servlet-name>
+    <servlet-class>com.etass.action.ViewOwneruploadedfileservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Filesearchingservlet</servlet-name>
+    <servlet-class>com.etass.action.Filesearchingservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestsendtokgcServlet</servlet-name>
+    <servlet-class>com.etass.action.RequestsendtokgcServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendkeyServlet</servlet-name>
+    <servlet-class>com.etass.action.SendkeyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewRequestedfileservlet</servlet-name>
+    <servlet-class>com.etass.action.ViewRequestedfileservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadfileServlet</servlet-name>
+    <servlet-class>com.etass.action.DownloadfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Otpcheckservlet</servlet-name>
+    <servlet-class>com.etass.action.Otpcheckservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MalicioususerServlet</servlet-name>
+    <servlet-class>com.etass.action.MalicioususerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Checkmaliciousservlet</servlet-name>
+    <servlet-class>com.etass.action.Checkmaliciousservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Unrevokeusersservlet</servlet-name>
+    <servlet-class>com.etass.action.Unrevokeusersservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UnrevokeRequestAcceptServlet</servlet-name>
+    <servlet-class>com.etass.action.UnrevokeRequestAcceptServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <url-pattern>/instantiationservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>KgcLoginServlet</servlet-name>
+    <url-pattern>/KgcLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloudLoginServlet</servlet-name>
+    <url-pattern>/CloudLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataOwnerLoginServlet</servlet-name>
+    <url-pattern>/DataOwnerLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataUserLoginServlet</servlet-name>
+    <url-pattern>/DataUserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestUserServlet</servlet-name>
+    <url-pattern>/RequestUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestOwnerServlet</servlet-name>
+    <url-pattern>/RequestOwnerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewDataownerservlet</servlet-name>
+    <url-pattern>/ViewDataownerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewDatauserservlet</servlet-name>
+    <url-pattern>/ViewDatauserservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnerRequestAcceptServlet</servlet-name>
+    <url-pattern>/OwnerRequestAcceptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRequestAcceptServlet</servlet-name>
+    <url-pattern>/UserRequestAcceptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloudRequestfileServlet</servlet-name>
+    <url-pattern>/CloudRequestfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cloudfileacceptservlet</servlet-name>
+    <url-pattern>/Cloudfileacceptservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewOwneruploadedfileservlet</servlet-name>
+    <url-pattern>/ViewOwneruploadedfileservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Filesearchingservlet</servlet-name>
+    <url-pattern>/Filesearchingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestsendtokgcServlet</servlet-name>
+    <url-pattern>/RequestsendtokgcServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendkeyServlet</servlet-name>
+    <url-pattern>/SendkeyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewRequestedfileservlet</servlet-name>
+    <url-pattern>/ViewRequestedfileservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadfileServlet</servlet-name>
+    <url-pattern>/DownloadfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Otpcheckservlet</servlet-name>
+    <url-pattern>/Otpcheckservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MalicioususerServlet</servlet-name>
+    <url-pattern>/MalicioususerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkmaliciousservlet</servlet-name>
+    <url-pattern>/Checkmaliciousservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Unrevokeusersservlet</servlet-name>
+    <url-pattern>/Unrevokeusersservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnrevokeRequestAcceptServlet</servlet-name>
+    <url-pattern>/UnrevokeRequestAcceptServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
